@@ -1,0 +1,21 @@
+.header_ {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    background: #a894d9;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.logo {
+    image-rendering: 'logo.png';
+    position: fixed;
+}
+
+.redes {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-left: 30px;
+    display: inline-flex;
+}
