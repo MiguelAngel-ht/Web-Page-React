@@ -1,30 +1,30 @@
-import React from "react";
-import Navbar from "../navbar";
+import React from 'react';
+import { Navbar } from '../../common';
 import './Header.css';
 
-function Header () {
 
-    return (
-        <section className="header_">
+function Header() {
+  return (
+    <div className="header">
 
-            {/* LOGO  */}
-            <section className="logo">
-                Logo
-            </section>
+      <a href="https://pixelcoblog.com" className="link">
+        <img src="https://pixelcoblog.com/wp-content/uploads/2009/10/2-tipograf-manga.jpg" alt="Logo" className="logo" />
+      </a>
 
-            {/* BARRA DE NAVEGACIÓN */}
-            <section className="navegacion">
-                <Navbar/>
-            </section>
+      <div className='nav-bar'>
+        <Navbar/>
+      </div>
+      
+      <div className="social-media">
+        <ul>
+          <li><a href="#"><i className="fab fa-facebook"></i></a></li>
+          <li><a href="#"><i className="fab fa-instagram"></i></a></li>
+          <li><a href="#"><i className="fas fa-envelope"></i></a></li>
+        </ul>
+      </div>
 
-            {/* REDES SOCIALES */}
-            <section className="redes">
-                <section className="correo"> correo@gmail.com </section>
-                <section className="face"> mangamon </section>
-            </section>
-        </section>
-    )
-
+    </div>
+  );
 }
 
 export default Header;
