@@ -1,2 +1,7 @@
 # Web-Page-React
-React
+
+## Manga Page
+
+<p align="center" width="50%">
+    <img width="50%" src="motioneffect.png">
+</p>
