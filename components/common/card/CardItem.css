@@ -1,0 +1,25 @@
+.card-class {
+    margin-top: 10%;
+    background-color: azure;
+    margin-bottom: 10%;
+}
+
+.card-image {
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    overflow: hidden;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #1e1e1e;
+    margin: 3%;
+}
+
+.card-text {
+    color: rgb(66, 66, 66);
+    text-shadow: none;
+    margin: 3%;
+}
