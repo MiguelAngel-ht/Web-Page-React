@@ -1,0 +1,9 @@
+.container { 
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .col-md-4 {
+    margin-bottom: 4%;
+  }
